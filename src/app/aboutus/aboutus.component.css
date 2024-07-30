@@ -1,0 +1,22 @@
+.background-image {
+    background: url('https://wallpapercave.com/wp/wp2468653.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  }
+  
+  .about-us-content {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+  }
+  
+  .sub-sections .btn {
+    margin: 5px;
+  }
+  

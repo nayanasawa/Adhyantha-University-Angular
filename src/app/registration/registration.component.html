@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adhyantha Registration Page</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+    <style>
+        body {
+            background-color: #000000;
+            color: white;
+        }
+        .container {
+            background-color: #343a40;
+            border: 1px solid #dee2e6;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .header, .footer {
+            background-color: #000000;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .logo-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 10px;
+        }
+        .logo {
+            padding: 10px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .logo img {
+            max-width: 100%;
+            height: auto;
+        }
+        .nav-links a {
+            color: white;
+            margin-right: 10px;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        .nav-links a:hover {
+            color: #007bff;
+        }
+        .registration-form h2 {
+            color: #007bff;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .button-group button {
+            margin-right: 10px;
+        }
+        .footer .social-media a {
+            color: white;
+            margin-right: 10px;
+            transition: color 0.3s;
+        }
+        .footer .social-media a:hover {
+            color: #007bff;
+        }
+        .approved-affiliated-logo .logo {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header text-center">
+            <h1>Adhyantha Registration Page</h1>
+            <div class="logo-container">
+                <div class="logo">
+                    <img src="https://png.pngtree.com/png-vector/20211120/ourmid/pngtree-university-logo-png-image_4037518.png" alt="Logo">
+                </div>
+            </div>
+            <div class="nav-links">
+        
+        <a href="Staffhomepage">Staff Home Page</a>
+                <a href="AboutDepartment">About their Department</a>
+                <a href="Departmenttoppers">Department Toppers</a>
+                <a href="login">Logout</a>
+            </div>
+        </div>
+        <div class="registration-form">
+            <h2>Registration Page</h2>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <label for="dob">DOB:</label>
+                <input type="date" class="form-control" id="dob">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+                <label for="father-name">Father Name:</label>
+                <input type="text" class="form-control" id="father-name" placeholder="Enter your father's name">
+            </div>
+            <div class="form-group">
+                <label for="contact-number">Contact Number:</label>
+                <input type="tel" class="form-control" id="contact-number" placeholder="Enter your contact number">
+            </div>
+            <div class="form-group">
+                <label for="mother-name">Mother Name:</label>
+                <input type="text" class="form-control" id="mother-name" placeholder="Enter your mother's name">
+            </div>
+            <div class="form-group">
+                <label for="10th-total-mark">10th Total Mark:</label>
+                <input type="number" class="form-control" id="10th-total-mark" placeholder="Enter your 10th total mark">
+            </div>
+            <div class="form-group">
+                <label for="physics-mark">Physics Mark:</label>
+                <input type="number" class="form-control" id="physics-mark" placeholder="Enter your physics mark">
+            </div>
+            <div class="form-group">
+                <label for="chemistry-mark">Chemistry Mark:</label>
+                <input type="number" class="form-control" id="chemistry-mark" placeholder="Enter your chemistry mark">
+            </div>
+            <div class="form-group">
+                <label for="12th-total-mark">12th Total Mark:</label>
+                <input type="number" class="form-control" id="12th-total-mark" placeholder="Enter your 12th total mark">
+            </div>
+            <div class="form-group">
+                <label for="maths-mark">Maths Mark:</label>
+                <input type="number" class="form-control" id="maths-mark" placeholder="Enter your maths mark">
+            </div>
+            <div class="form-group">
+                <label for="12th-mark-sheet">12th Mark Sheet:</label>
+                <input type="file" class="form-control-file" id="12th-mark-sheet">
+            </div>
+            <div class="button-group">
+                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="reset" class="btn btn-secondary">Reset</button>
+                <button type="button" class="btn btn-info">Upload</button>
+            </div>
+        </div>
+        <div class="footer text-center">
+            <div class="logo-container">
+                <div class="logo">
+                    <img src="https://png.pngtree.com/png-vector/20211120/ourmid/pngtree-university-logo-png-image_4037518.png" alt="Logo">
+                </div>
+            </div>
+            <div class="address">Address</div>
+            <div class="social-media">
+                <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+            <div class="copyright">Copyright &copy; ACET</div>
+            <div class="approved-affiliated">
+                <div class="approved-affiliated-logo">
+                    <div class="logo">
+                        <img src="https://png.pngtree.com/png-vector/20211120/ourmid/pngtree-university-logo-png-image_4037518.png" alt="Logo">
+                    </div>
+                </div>
+                <div class="approved-affiliated-logo">
+                    <div class="logo">
+                        <img src="https://png.pngtree.com/png-vector/20211120/ourmid/pngtree-university-logo-png-image_4037518.png" alt="Logo">
+                    </div>
+                </div>
+            </div>
+            <div class="approved-affiliated-text">APPROVED & AFFILIATED BY</div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance and Student Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        nav ul li {
+            margin: 0;
+        }
+
+        nav ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            background-color: #575757;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .section {
+            margin-bottom: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: #fafafa;
+        }
+
+        .button {
+            display: inline-block;
+            margin: 10px 0;
+            padding: 15px 25px;
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+        }
+
+        h2 {
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .student-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .student-card {
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 10px;
+            width: calc(33.333% - 20px);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .student-card img {
+            max-width: 100%;
+            border-radius: 50%;
+        }
+
+        .student-card h3 {
+            margin: 10px 0 5px;
+        }
+
+        .student-card p {
+            margin: 0;
+        }
+
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            nav ul li a {
+                padding: 10px;
+            }
+
+            .button {
+                width: 100%;
+                text-align: center;
+            }
+
+            .student-card {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a routerLink="/Staffhomepage" routerLinkActive="active">Staff Home Page</a></li>
+            <li><a href="AboutDepartment" routerLinkActive="active">About their department</a></li>
+            <li><a href="Departmenttoppers" routerLinkActive="active">Department Topper</a></li>
+            <li><a href="/login" routerLinkActive="active">Logout</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="section">
+            <a href="Attendance Entry" class="button">Click Here for Attendance Entry</a>
+        </div>
+
+        <div class="section">
+            <a href="Marks Entry" class="button">Click Here for Mark Entry</a>
+        </div>
+
+        <div class="section">
+            <h2>Student Details</h2>
+            <p>Here you can find the details of current and past students:</p>
+            <h2>Current Student Details</h2>
+            <p>Our current students are a vibrant and diverse group of individuals, excelling in various academic and
+                extracurricular pursuits...</p>
+
+            <div class="student-gallery">
+                <div class="student-card">
+                    <img src="https://media.istockphoto.com/id/1392990621/photo/smart-handsome-positive-indian-or-arabian-guy-with-glasses-in-casual-wear-student-or.jpg?s=612x612&w=0&k=20&c=qyj5Dh8_uN5Xue9aICOI0z_OYyzNh_f1pFeAhRA4FQA="
+                        alt="Student 1">
+                    <h3>Karthik</h3>
+                    <p>Major: Computer Science</p>
+                </div>
+                <div class="student-card">
+                    <img src="https://i.pinimg.com/736x/bb/f7/79/bbf7790a9929f04b3c25824125dcdade.jpg" alt="Student 2">
+                    <h3>Ravi</h3>
+                    <p>Major: Mechanical Engineering</p>
+                </div>
+                <div class="student-card">
+                    <img src="https://img.freepik.com/free-photo/smiling-indian-man-casual-close-with-laptop-backpack-pastel-wall_496169-1583.jpg"
+                        alt="Student 3">
+                    <h3>Suresh</h3>
+                    <p>Major: Business Administration</p>
+                </div>
+            </div>
+
+            <h2>Past Student Details</h2>
+            <p>Our alumni network is a testament to the quality of education and the comprehensive development our
+                institution provides...</p>
+
+            <div class="student-gallery">
+                <div class="student-card">
+                    <img src="https://i.pinimg.com/550x/b3/d3/87/b3d387bd3459bf4006a6ebcc5e6c0ad7.jpg" alt="Alumni 1">
+                    <h3>John</h3>
+                    <p>Position: CEO at TechCorp</p>
+                </div>
+                <div class="student-card">
+                    <img src="https://media.sciencephoto.com/f0/28/56/71/f0285671-800px-wm.jpg" alt="Alumni 2">
+                    <h3>Ashwin</h3>
+                    <p>Position: Senior Engineer at AutoInc</p>
+                </div>
+                <div class="student-card">
+                    <img src="https://t3.ftcdn.net/jpg/02/12/77/52/360_F_212775224_igtaH98peQG0bZFU9hhxT75Qr2KygMgF.jpg"
+                        alt="Alumni 3">
+                    <h3>Gowtham</h3>
+                    <p>Position: Research Scientist at BioLabs</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
