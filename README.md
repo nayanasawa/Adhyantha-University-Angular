@@ -41,7 +41,7 @@ You can view the site by opening index.html in a web browser or by using a local
 
 ## Output
 # Home Page
-![Homepage Image](https://github.com/nayanasawa/Adhyantha-University-/raw/main/homepage.JPG)
+![Homepage Image](https://github.com/nayanasawa/Adhyantha-University-Angular/blob/main/new.JPG)
 
 # Gallery Page
 ![Gallery Image](https://github.com/nayanasawa/Adhyantha-University-/raw/main/gallery.JPG)
