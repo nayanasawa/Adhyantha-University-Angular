@@ -50,7 +50,7 @@ You can view the site by opening index.html in a web browser or by using a local
 ![image](https://github.com/user-attachments/assets/d8cb24c4-a6fe-4eaf-a2fc-f50665b68ff9)
 
 # Login Page
-![Login Final Image](https://github.com/nayanasawa/Adhyantha-University-/raw/main/loginfinal.JPG)
+![Login Final Image](https://github.com/nayanasawa/Adhyantha-University-Angular/blob/main/Capture.JPG)
 
 # Register Page
 ![Registration Image](https://github.com/nayanasawa/Adhyantha-University-/raw/main/reg44.JPG)
