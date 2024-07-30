@@ -1,27 +1,68 @@
-# Myapp
+# Adhyantha University Website
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.2.
+Welcome to the Adhyantha University website repository! This project is designed to create a modern, responsive homepage for Adhyantha University using HTML, Bootstrap, and custom CSS.
 
-## Development server
+## Project Overview
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+This project features:
+- A responsive navigation bar with links to Home, About Us, Gallery, Contact Us, and Login pages.
+- A full-screen background image with a welcoming message and a marquee displaying university rankings.
+- Stylish and functional "Learn More" and "Register" buttons.
 
-## Code scaffolding
+## Technologies Used
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- HTML5
+- CSS3
+- Bootstrap 5
+- JavaScript
 
-## Build
+## Installation
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+To set up and run this project locally, follow these steps:
 
-## Running unit tests
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/your-username/adhyantha-university-website.git
+   cd adhyantha-university-website
+2 **Navigate to the Project Directory
+  cd Adhyantha-University-
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+3 **Install Dependencies
 
-## Running end-to-end tests
+If there are any additional dependencies or package managers (e.g., npm or yarn), make sure to install them. For example, if using npm:
+npm install
+4 **Open the Project
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Open the index.html file in your preferred web browser to view the homepage.
+For a local development server, you might use a tool like Live Server (if using VSCode) or any other static server of your choice.
+5 **Preview the Project
 
-## Further help
+You can view the site by opening index.html in a web browser or by using a local development server.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Output
+# Home Page
+![Homepage Image](https://github.com/nayanasawa/Adhyantha-University-/raw/main/homepage.JPG)
+
+# Gallery Page
+![Gallery Image](https://github.com/nayanasawa/Adhyantha-University-/raw/main/gallery.JPG)
+
+# Contact US Page
+![image](https://github.com/user-attachments/assets/d8cb24c4-a6fe-4eaf-a2fc-f50665b68ff9)
+
+# Login Page
+![Login Final Image](https://github.com/nayanasawa/Adhyantha-University-/raw/main/loginfinal.JPG)
+
+# Register Page
+![Registration Image](https://github.com/nayanasawa/Adhyantha-University-/raw/main/reg44.JPG)
+
+
+
+### Notes:
+
+- **Clone URL**: Make sure the `git clone` URL is accurate. I used the repository URL you provided.
+- **Dependencies**: Add installation instructions for any additional dependencies your project might have. If your project does not use any package manager, you can skip the installation step for dependencies.
+- **Viewing the Project**: The instructions to open `index.html` can be replaced with specific commands if using a build tool or development server.
+- **Contact Us Image**: Replace the placeholder URL for the Contact Us page with the correct URL or upload the image to GitHub if it’s missing.
+
+Feel free to adjust any details to better fit your project’s specifics!
+
